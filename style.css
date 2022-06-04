@@ -28,3 +28,27 @@ body {
     border-top-right-radius: 15px;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-container h2 {
+    color: hsl(223deg, 47%, 23%);
+    text-align: center;
+    margin: 10px 0;
+}
+
+#text-container p {
+    color: hsl(224deg, 23%, 55%);
+    text-align: center;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -46,6 +48,7 @@ body {
   color: hsl(223deg, 47%, 23%);
   text-align: center;
   margin: 10px 0;
+  font-weight: 900;
 }
 
 #text-container p {
@@ -78,21 +81,70 @@ body {
 }
 
 .item-text h3 {
-    font-size: 14px;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 .item-text p {
   color: hsl(224deg, 23%, 55%);
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-a, a:active, a:focus, a:visited  {
-color: rgb(71, 71, 250);
-font-weight: bold;
-font-size: 14px;
+a,
+a:active,
+a:focus,
+a:visited {
+  color: rgb(71, 71, 250);
+  font-weight: bold;
+  font-size: 16px;
 }
 
 a:hover {
-    color:rgb(112, 112, 255);
-    text-decoration: none;
+  color: rgb(112, 112, 255);
+  text-decoration: none;
+}
+
+#buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  margin-top: 5px;
+}
+
+.payBtn {
+  background-color: hsl(245deg, 75%, 52%);
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 13px;
+  width: 100%;
+}
+
+.payBtn:hover {
+  transform: scale(0.99);
+  background-color: #6255e7;
+  box-shadow: 9 1px 10px #6255e7;
+  -webkit-box-shadow: 0 1px 10px #6255e7;
+}
+
+.cansleBtn {
+  background-color: transparent;
+  border: none;
+  color: hsl(224deg, 23%, 55%);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px;
+}
+
+.cansleBtn:hover {
+    color: #000;
 }

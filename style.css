@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(225deg, 100%, 94%);
+  display: grid;
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+  place-items: center;
+}
+
+#card {
+  background-color: #fff;
+  border-radius: 15px;
+  height: 35rem;
+  width: 24rem;
+  box-shadow: 0 1px 3px hsl(224deg 23% 55%);
+  overflow: hidden;
+}
+
+#img {
+    width: 100%;
+    border: 2px solid hsl(245deg, 75%, 52%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
